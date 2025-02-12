@@ -1,0 +1,6 @@
+services:
+  image: 17.2-alpine3.21
+  container_name: helloworld
+  environment:
+    POSTGRES_USER:
+    POSTGRES_PASSWORD: "local_password"

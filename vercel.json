@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "viagem/index.html",
+      "headers": {
+        "Host": "viagem.johansilas.com.br"
+      }
+    }
+  ]
+}

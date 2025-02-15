@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bank.css">
+  <title>the bank</title>
+</head>
+<body>
+  <script>
+        // Verifica se o formulário foi enviado
+        if (sessionStorage.getItem("formEnviado") !== "true") {
+            // Redireciona de volta para o formulário se não foi enviado
+            window.location.href = "forbiden.html";
+        }
+    </script>
+
+  <div class="container">
+    <!-- Menu lateral -->
+    <div class="menu">
+        <ul>
+            <li><a href="#" data-category="Salta">Salta</a></li>
+            <li><a href="#" data-category="Garganta de El Diablo"></a></li>
+            <li><a href="#" data-category="Pumamarca">Pumamarca</a></li>
+            
+        </ul>
+    </div>
+      <div class="photos" id="photos">
+
+
+      </div>
+
+
+
+
+    </div>
+  
+</body>
+</html>

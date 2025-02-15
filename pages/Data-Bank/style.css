@@ -4,7 +4,7 @@
 
 body {
   
-  background: var(--bg-primary);
+  background-image: url(assets/denim.webp);
 }
 
 #loginForm{
@@ -52,8 +52,14 @@ form h2 {
   
 }
 
+
 #errorMessage{
-  background-color: black;
+  color: red;
+  font-size: 15px;
+  margin: -5px 0px -5px 0px;
+  
+
+  
   
 }
 

@@ -2,6 +2,11 @@
   const branco = `#FFFFFF`;
   const fundo = document.body.style;
 
+   function bankRedirect(){
+      windows.location.replace = ("bank.html");
+   }
+
+
     function mostrarAzul(){
   document.body.style.backgroundColor = azul;
     };
@@ -27,8 +32,9 @@
 
    
     if (usuario === usuarioCorreto && senha === senhaCorreta) {
-        alert("Login bem-sucedido!");
-        
+         sessionStorage.setItem("formEnviado", "true");
+          window.location.href = "bank.html";
+          
   
     } else {
         document.getElementById("errorMessage").style.display = 'block';

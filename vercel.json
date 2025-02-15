@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/pages/dataBank",
+      "dest": "/pages/dataBank/index.html"
+    },
+    {
+      "src": "/pages/dataBank/(.*)",
+      "dest": "/pages/dataBank/$1"
+    }
+  ]
+}
